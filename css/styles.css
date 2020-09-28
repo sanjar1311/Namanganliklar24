@@ -115,7 +115,7 @@ ul{
   margin-left: 10px;
 }
 
-      /* NAV */
+/* NAV */
 
 .navbar{
   background-color: #fff;
@@ -153,7 +153,7 @@ ul{
   height: auto;
 }
 
-      /* MAIN */
+/* MAIN */
 
 .main-section{
   display: flex;
@@ -237,7 +237,7 @@ ul{
   height: 50px;
 }
 
-    /* MAIN-RIGHT-SIDE */
+/* MAIN-RIGHT-SIDE */
 
 .main-right-side{
   width: 510px;
@@ -291,17 +291,19 @@ ul{
 
 .mobile-apps{
   display: flex;
+  justify-content: space-between;
 }
 
 .mobile-apps-photos{
   margin-left: auto;
 }
 
-.mobile-apps-photos img{
-  margin-left: 10px;
+.mobile-apps-photos{
+  margin-right: 10px;
+  border-radius: 10px;
 }
 
-    /* FOOTER */
+/* FOOTER */
 
 
 .site-footer{
