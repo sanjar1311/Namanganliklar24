@@ -17,6 +17,11 @@ ul{
   list-style: none;
 }
 
+time{
+  color: #6B6D97;
+  font-size: 14px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -450,6 +455,29 @@ ul{
 }
 
 
+        /* HOME PAGES */
         /* MAIN-TOP-NEWS */
 
-.
+.main-top-news{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-items{
+  width: 30%;
+  margin: 20px 40px 0 0;
+}
+
+.news-items h4{
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px 0;
+}
+
+.notification{
+  background-color: rgba(239, 186, 84, 0.18);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 33px;
+}
