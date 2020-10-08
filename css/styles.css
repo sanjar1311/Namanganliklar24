@@ -493,6 +493,7 @@ time{
   font-size: 20px;
   position: relative;
   padding-left: 60px;
+  font-weight: bold;
 }
 
 .notification-text::before{
@@ -501,11 +502,11 @@ time{
   top: -10px;
   left: -10px;
   display: block;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-image: url("/images/notification-bell.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   background-position: center center;
 }
 
@@ -514,4 +515,5 @@ time{
   background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
   color: #fff;
   font-size: 20px;
+  border-radius: 5px;
 }
